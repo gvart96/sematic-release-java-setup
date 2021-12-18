@@ -1,3 +1,5 @@
+name: Relase
+
 on:
   workflow_dispatch:
 
