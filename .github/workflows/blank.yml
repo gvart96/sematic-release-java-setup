@@ -29,4 +29,4 @@ jobs:
         # checkout end
       - run: echo “BRANCH_NAME=$(echo $(git branch --show-current))” >> $GITHUB_ENV
       - name: test
-        run: echo "this is branch, $BRANCH_NAME"
+        run: echo $BRANCH_NAME
